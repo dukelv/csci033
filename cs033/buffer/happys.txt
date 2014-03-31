@@ -1,0 +1,11 @@
+
+happys.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	c7 05 04 c2 04 08 34 	movl   $0x7b23e734,0x804c204
+   7:	e7 23 7b 
+   a:	ff 35 43 91 04 08    	pushl  0x8049143
+  10:	c3                   	ret    

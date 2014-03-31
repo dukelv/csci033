@@ -1,0 +1,15 @@
+total 424
+drws------  3 sbreslow sbreslow   8192 Nov 12  2012 .
+drwx--S--- 14 sbreslow sbreslow   8192 Nov  5 16:52 ..
+-rw-------  1 sbreslow sbreslow    475 Nov  8 21:00 Makefile
+-rw-------  1 sbreslow sbreslow   7230 Nov  8 21:00 jobs.c
+-rw-------  1 sbreslow sbreslow   1832 Nov  8 21:00 jobs.h
+-rwx------  1 sbreslow sbreslow 118405 Nov 12  2012 noprompt
+-rwx------  1 sbreslow sbreslow 118381 Nov 12 18:58 sh
+-rw-------  1 sbreslow sbreslow  11942 Nov 12 18:58 sh.c
+-rw-------  1 sbreslow sbreslow  90189 Nov  8 21:00 shell_2.pdf
+drwx------  2 sbreslow sbreslow   8192 Nov 12  2012 temp
+-rw-------  1 sbreslow sbreslow     66 Nov 12 18:43 test.txt
+-rw-------  1 sbreslow sbreslow      0 Nov 12  2012 testing1
+-rw-------  1 sbreslow sbreslow    774 Nov 12 18:46 testpost
+-rw-------  1 sbreslow sbreslow    713 Nov 12 18:46 testpre

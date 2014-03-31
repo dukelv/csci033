@@ -1,0 +1,10 @@
+
+grumpy.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	bb 34 e7 23 7b       	mov    $0x7b23e734,%ebx
+   5:	68 cf 8d 04 08       	push   $0x8048dcf
+   a:	c3                   	ret    

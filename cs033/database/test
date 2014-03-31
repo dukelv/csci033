@@ -1,0 +1,15 @@
+(root)
+ (null)
+ argentina buenos_aires
+  (null)
+  colombia bogota
+   brasil brasilia
+    (null)
+    chile santiago
+     (null)
+     (null)
+   uruguay montevideo
+    foo bar
+     (null)
+     (null)
+    (null)

